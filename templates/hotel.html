@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	{% load static %}
+	<link rel="stylesheet" type="text/css" href="{% static 'css/style1.css' %}">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+	<title>hotel</title>
+
+</head>
+<body>
+
+  <h1>Result</h1> 
+<span id="result"></span>
+<script type="text/javascript">
+	document.getElementById("result").innerHTML=localStorage.getItem("textvalue");
+</script>
+<h2>{{results}}</h2>
+
+</body>
+</html>
