@@ -25,7 +25,7 @@ SECRET_KEY = 'ed3&*-swey@i$slq3c4l3_mwj_2yhj*-_+s6+7owmgeu$660@g'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['reviewdetector1.herokuapp.com', '127.0.0.1']
+ALLOWED_HOSTS = ['https://reviewdetector1.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
