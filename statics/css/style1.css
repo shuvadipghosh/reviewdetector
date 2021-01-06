@@ -1,0 +1,45 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-align: center;
+}
+html{
+	font-size: 10px;
+	font-family:'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+img{
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+h1{
+font-size: 8rem;
+text-transform: uppercase;
+color: red;
+align-items: center;
+margin-top: 100px;
+margin-bottom: 100px;
+}
+body{
+	background-image: url(/static/images/Background.jpg);
+	background-size: cover;
+	background-position: top center;
+	position: relative;
+}
+
+#result{
+	font-size: 1rem;
+	letter-spacing: 2;
+	display: inline-block;
+}
+h2{
+  font-size:3rem;
+  margin-top:-100px;
+}
+#result1{
+	font-size: 1rem;
+	letter-spacing: 2;
+	display: inline-block;
+}
