@@ -22,7 +22,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'ed3&*-swey@i$slq3c4l3_mwj_2yhj*-_+s6+7owmgeu$660@g'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['reviewdetector1.herokuapp.com', '127.0.0.1']
 
